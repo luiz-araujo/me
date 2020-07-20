@@ -1,10 +1,13 @@
 {
   "name": "luiz-araujo",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Luiz Araújo, my contacts",
-  "main": "index.js",
+  "main": "./info.json",
   "scripts": {
-    "postinstall": "cat info.json"
+    "postversion": "npm publish"
+  },
+  "bin": {
+    "luiz-araujo": "./index.js"
   },
   "keywords": [
     "person",
