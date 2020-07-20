@@ -1,0 +1,23 @@
+{
+  "name": "luiz-araujo",
+  "version": "1.0.0",
+  "description": "Luiz Araújo, my contacts",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cat info.json"
+  },
+  "keywords": [
+    "person",
+    "contact"
+  ],
+  "author": "Luiz Araújo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiz-araujo/me.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luiz-araujo/me/issues"
+  },
+  "homepage": "https://github.com/luiz-araujo/me#readme"
+}
